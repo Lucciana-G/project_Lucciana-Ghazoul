@@ -25,5 +25,5 @@ function showSlides(){
     slideIndex++;
     if(slideIndex > slides.length){slideIndex = 1}//Går tillbaka till bild 1 när loopen är klar
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 2000); //Ändrar bild varje 2 sekunder
+    setTimeout(showSlides, 3000); //Ändrar bild varje 3 sekunder
 }
