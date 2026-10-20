@@ -1,7 +1,7 @@
 *{ box-sizing: border-box; }
 
 body{
-    background-color: #fffaf2;
+    background-color: #FFFAF2;
     margin:0;
     font-family: "Chicle", serif;
     font-weight: 400;
@@ -83,5 +83,15 @@ header{
     }
 }
 
+.hero{
+    background-image:url("/images/hero-image.png");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 15px;
+}
 
-
+@media(min-width:768px){
+    .hero{
+        height: 400px;
+    }
+}
