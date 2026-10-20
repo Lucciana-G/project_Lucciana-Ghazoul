@@ -65,7 +65,7 @@ header{
     .menu ul{
         display:flex;
         justify-content: space-between;
-        gap: 70px;
+        gap: 90px;
         margin:0;
         padding:0;
     }
@@ -88,10 +88,47 @@ header{
     background-size: cover;
     background-position: center;
     padding: 60px 15px;
+    font-weight: bold;
+}
+.hero-title{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.1;
+}
+.line-one{
+    font-size: 2.5rem;
+}
+.line-two{
+    font-size: 3rem;
+    color: #B86C52;
+}
+
+.hero-button{
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #d8a796;
+  color: #4a2e30;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 @media(min-width:768px){
     .hero{
         height: 400px;
+        padding: 70px;
+        font-size: 22px;
     }
+    .hero-button{
+        width:150px;
+        text-align: center;
+    }
+    .line-two{
+    font-size: 4.5rem;
+    color: #B86C52;
+    }
+    .hero p{font-size:xx-large;}
 }
