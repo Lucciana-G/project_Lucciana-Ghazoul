@@ -12,9 +12,13 @@ body{
 
 img{max-width:100%;}
 
+.logo-box{
+    width:auto;
+    height: auto;
+}
 
 header{
-    padding:20px;
+    padding:10px;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -42,9 +46,10 @@ header{
 
 .menu-troggle{
     cursor: pointer;
+    height: 30px;
 }
 
-/*Stora skärmar*/
+/*Menyn i Stora skärmar*/
 @media (min-width:768px){
     .menu-troggle{
         display:none;
@@ -53,11 +58,30 @@ header{
     .menu{
         display:block;
         width:auto;
+        font-size:x-large;
+        padding: 20px;
     }
 
     .menu ul{
         display:flex;
-        gap:20px;
+        justify-content: space-between;
+        gap: 70px;
+        margin:0;
+        padding:0;
+    }
+
+    .site-header{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap:100px;
+    }
+
+    .logo-1{
+        width: 450px;
+        height: 200px;
     }
 }
+
+
 
