@@ -12,12 +12,37 @@ body{
 
 img{max-width:100%;}
 
-ul{
+
+header{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*Den här delen är styling för menu knapp och lista*/
+.menu ul{
     list-style: none;
     margin:0;
     padding:0;
 }
 
-a{
+.menu a{
     color: #4a2e30;
+    text-decoration: none;
 }
+.menu{
+    display:none;
+    width:100%;
+}
+
+/*Visar meny när klassen open läggs till*/
+.menu.open{
+    display:block;
+}
+
+.menu-troggle{
+    cursor: pointer;
+}
+
+
+
