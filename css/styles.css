@@ -44,5 +44,20 @@ header{
     cursor: pointer;
 }
 
+/*Stora skärmar*/
+@media (min-width:768px){
+    .menu-troggle{
+        display:none;
+    }
 
+    .menu{
+        display:block;
+        width:auto;
+    }
+
+    .menu ul{
+        display:flex;
+        gap:20px;
+    }
+}
 
