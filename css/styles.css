@@ -114,6 +114,7 @@ header{
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 @media(min-width:768px){
@@ -131,4 +132,11 @@ header{
     color: #B86C52;
     }
     .hero p{font-size:xx-large;}
+}
+
+.section2{
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 15px;
+  text-align: center;
 }
