@@ -1,1 +1,13 @@
 *{ box-sizing: border-box; }
+
+body{
+    background-color: #fffaf2;
+    margin:0;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4a2e30;
+    line-height: 1.5;
+}
+
+img{max-width:100%;}
