@@ -27,3 +27,4 @@ function showSlides(){
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 3000); //Ändrar bild varje 3 sekunder
 }
+

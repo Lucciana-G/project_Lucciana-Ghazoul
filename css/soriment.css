@@ -91,3 +91,23 @@ header{
  line-height: 1.6;
  margin:0 auto;
 }
+
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto 24px;
+  
+}
+
+.filter-button {
+  background: #ead9c8;
+  color: #38271e;
+  border-radius: 25x;
+}
+
+.filter-button.active {
+  background: #8b4b2b;
+  color: white;
+}
