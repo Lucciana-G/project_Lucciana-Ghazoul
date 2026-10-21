@@ -143,6 +143,7 @@ header{
   text-align: center;
 }
 
+/*SlidShow kod sektion*/
 .slideshow-container {
   width:100%;
   max-width: 200px;
@@ -184,7 +185,7 @@ header{
   position: absolute;
   top: 0;
 }
-
+/*För större skärmar*/
 @media (min-width:768px){
     .slideshow-container {
      max-width: 1000px;
