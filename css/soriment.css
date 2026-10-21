@@ -97,7 +97,7 @@ header{
   display: grid;
   grid-template-columns: 1fr; /* mobil: ett kort per rad */
   gap: 16px;
-  max-width: 1100px;
+  max-width: 300px;
   margin: auto;
   padding: 16px;
 }
@@ -123,10 +123,15 @@ header{
   font-size: 20px;
   font-weight: bold;
 }
+#message{
+    text-align: center;
+    color: red;
+}
 
 /* Dator */
 @media (min-width: 768px) {
   .kort-grid {
     grid-template-columns: repeat(4, 1fr);
+    min-width: 1100px;
   }
 }
