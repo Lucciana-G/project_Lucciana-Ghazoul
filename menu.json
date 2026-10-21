@@ -16,7 +16,7 @@
     "description": "Ett saftigt och smakrikt rågbröd med rostade solrosfrön.",
     "ingredients": ["Rågmjöl", "vetemjöl", "solrosfrön", "sirap", "vatten", "salt"],
     "priceSEK": 42,
-    "image": "https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=800&q=80",
+    "image":"https://images.pexels.com/photos/33658037/pexels-photo-33658037.jpeg" ,
     "imageAlt": "Rågbröd bakat med frön"
   },
   {
@@ -36,7 +36,7 @@
     "description": "Italienskt bröd med olivolja, havssalt och doftande rosmarin.",
     "ingredients": ["Vetemjöl", "olivolja", "jäst", "rosmarin", "havssalt", "vatten"],
     "priceSEK": 39,
-    "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/30666812/pexels-photo-30666812.jpeg",
     "imageAlt": "Focaccia med örter"
   },
   {
@@ -46,7 +46,7 @@
     "description": "En lång, frasig baguette med luftig insida.",
     "ingredients": ["Vetemjöl", "jäst", "vatten", "salt"],
     "priceSEK": 32,
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    "image":"https://images.pexels.com/photos/14653313/pexels-photo-14653313.jpeg",
     "imageAlt": "Färskt, frasigt bröd"
   },
   {
@@ -56,7 +56,7 @@
     "description": "Fyra mjuka frukostfrallor med gyllene yta.",
     "ingredients": ["Vetemjöl", "mjölk", "jäst", "smör", "salt"],
     "priceSEK": 36,
-    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/30680090/pexels-photo-30680090.jpeg",
     "imageAlt": "Frukostbröd på ett bord"
   },
   {
@@ -66,7 +66,7 @@
     "description": "Ett mjukt och smörigt bröd som passar fint till frukost.",
     "ingredients": ["Vetemjöl", "ägg", "mjölk", "smör", "jäst", "socker"],
     "priceSEK": 58,
-    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/14582741/pexels-photo-14582741.jpeg",
     "imageAlt": "Ljust, nybakat bröd"
   },
   {
@@ -76,7 +76,7 @@
     "description": "Ett mjukt vardagsbröd med havregryn och mild smak.",
     "ingredients": ["Vetemjöl", "havregryn", "mjölk", "jäst", "sirap", "salt"],
     "priceSEK": 44,
-    "image": "https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/30785735/pexels-photo-30785735.jpeg",
     "imageAlt": "Nybakat bröd med en gyllene yta"
   },
   {
@@ -86,18 +86,8 @@
     "description": "Ett luftigt italienskt bröd med knaprig skorpa.",
     "ingredients": ["Vetemjöl", "olivolja", "jäst", "vatten", "salt"],
     "priceSEK": 34,
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/7568493/pexels-photo-7568493.jpeg",
     "imageAlt": "Luftigt bröd med frasig skorpa"
-  },
-  {
-    "id": "knackebrod-fro",
-    "title": "Knäckebröd med frön",
-    "category": "Bröd",
-    "description": "Tunt och knaprigt knäckebröd med flera sorters frön.",
-    "ingredients": ["Rågmjöl", "havregryn", "pumpakärnor", "sesamfrön", "vatten", "salt"],
-    "priceSEK": 48,
-    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80",
-    "imageAlt": "Rustikt bröd med frön"
   },
   {
     "id": "kanelbulle",
@@ -116,7 +106,7 @@
     "description": "Smörig vetebulle med nystött kardemumma och socker.",
     "ingredients": ["Vetemjöl", "mjölk", "smör", "kardemumma", "socker", "jäst"],
     "priceSEK": 34,
-    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/9700838/pexels-photo-9700838.jpeg",
     "imageAlt": "Söt, nybakad vetebulle"
   },
   {
@@ -126,7 +116,7 @@
     "description": "Frasigt, smörigt bakverk med mörk choklad i mitten.",
     "ingredients": ["Vetemjöl", "smör", "mjölk", "mörk choklad", "jäst", "socker"],
     "priceSEK": 38,
-    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/6601711/pexels-photo-6601711.jpeg",
     "imageAlt": "Frasig croissant med choklad"
   },
   {
@@ -136,7 +126,7 @@
     "description": "Smörig croissant fylld med mandelkräm och toppad med mandel.",
     "ingredients": ["Vetemjöl", "smör", "mandel", "ägg", "mjölk", "socker"],
     "priceSEK": 42,
-    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/38019469/pexels-photo-38019469.jpeg",
     "imageAlt": "Gyllene croissant med mandel"
   },
   {
@@ -146,18 +136,8 @@
     "description": "Franskt smördegsknyte med två stavar mörk choklad.",
     "ingredients": ["Vetemjöl", "smör", "mörk choklad", "mjölk", "jäst", "socker"],
     "priceSEK": 36,
-    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/39866729/pexels-photo-39866729.png",
     "imageAlt": "Fransk chokladfylld croissant"
-  },
-  {
-    "id": "vaniljhjarta",
-    "title": "Vaniljhjärta",
-    "category": "Bakverk",
-    "description": "Mört hjärtformat bakverk med krämig vaniljfyllning.",
-    "ingredients": ["Vetemjöl", "smör", "vaniljkräm", "ägg", "socker"],
-    "priceSEK": 30,
-    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
-    "imageAlt": "Litet sött bakverk"
   },
   {
     "id": "hallongrotta",
@@ -166,18 +146,8 @@
     "description": "Mör småkaka med en klick hallonsylt i mitten.",
     "ingredients": ["Vetemjöl", "smör", "socker", "hallonsylt", "vaniljsocker"],
     "priceSEK": 18,
-    "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/7451528/pexels-photo-7451528.jpeg",
     "imageAlt": "Småkaka med söt fyllning"
-  },
-  {
-    "id": "appelknyte",
-    "title": "Äppelknyte",
-    "category": "Bakverk",
-    "description": "Frasigt bakverk fyllt med äpple, kanel och lite socker.",
-    "ingredients": ["Vetemjöl", "smör", "äpple", "kanel", "socker"],
-    "priceSEK": 34,
-    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
-    "imageAlt": "Gyllene, frasigt bakverk"
   },
   {
     "id": "semla",
@@ -186,7 +156,7 @@
     "description": "Kardemummabulle med mandelmassa och vispad grädde.",
     "ingredients": ["Vetemjöl", "mjölk", "kardemumma", "mandel", "grädde", "socker"],
     "priceSEK": 42,
-    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/19859285/pexels-photo-19859285.jpeg",
     "imageAlt": "Söt svensk bulle med fyllning"
   },
   {
@@ -196,7 +166,7 @@
     "description": "Svensk chokladkaka med kladdig mitt, serveras gärna med grädde.",
     "ingredients": ["Smör", "socker", "ägg", "vetemjöl", "kakao", "mörk choklad"],
     "priceSEK": 45,
-    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/26999506/pexels-photo-26999506.jpeg",
     "imageAlt": "Kladdig chokladkaka"
   },
   {
@@ -206,7 +176,7 @@
     "description": "Saftig kaka med morot, kanel och len glasyr.",
     "ingredients": ["Morot", "vetemjöl", "ägg", "socker", "kanel", "färskost"],
     "priceSEK": 42,
-    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/6133480/pexels-photo-6133480.jpeg",
     "imageAlt": "Saftig kaka med glasyr"
   },
   {
@@ -216,7 +186,7 @@
     "description": "Tårtbit med sockerkaka, vaniljkräm, grädde och grön marsipan.",
     "ingredients": ["Ägg", "vetemjöl", "grädde", "vanilj", "hallonsylt", "marsipan"],
     "priceSEK": 49,
-    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+    "image": "https://koktips.se/wp-content/uploads/2025/05/VA-TEMPLATE-Featured-image-1200-x-628-px-1-3-9.webp",
     "imageAlt": "Färgglad tårtbit"
   },
   {
@@ -226,7 +196,7 @@
     "description": "Krämig cheesecake med blåbär och smulig botten.",
     "ingredients": ["Färskost", "blåbär", "digestivekex", "smör", "socker", "ägg"],
     "priceSEK": 48,
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/20707818/pexels-photo-20707818.jpeg",
     "imageAlt": "Cheesecake med bär"
   },
   {
@@ -236,7 +206,7 @@
     "description": "Frisk citronpaj med söt, len fyllning och sprött pajskal.",
     "ingredients": ["Vetemjöl", "smör", "citron", "ägg", "socker", "grädde"],
     "priceSEK": 44,
-    "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/31111197/pexels-photo-31111197.jpeg",
     "imageAlt": "Paj med söt fyllning"
   },
   {
@@ -246,18 +216,8 @@
     "description": "Len mousse gjord på mörk choklad och vispad grädde.",
     "ingredients": ["Mörk choklad", "grädde", "ägg", "socker"],
     "priceSEK": 39,
-    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/30822779/pexels-photo-30822779.jpeg",
     "imageAlt": "Chokladdessert"
-  },
-  {
-    "id": "blabarspaj",
-    "title": "Blåbärspaj",
-    "category": "Desserter",
-    "description": "Varm blåbärspaj med smuligt täcke, god med vaniljsås.",
-    "ingredients": ["Blåbär", "havregryn", "vetemjöl", "smör", "socker"],
-    "priceSEK": 42,
-    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80",
-    "imageAlt": "Paj med bär"
   },
   {
     "id": "vaniljcupcake",
@@ -266,7 +226,7 @@
     "description": "Mjuk vaniljkaka med len frosting och färgglatt strössel.",
     "ingredients": ["Vetemjöl", "smör", "ägg", "socker", "vanilj", "färskost"],
     "priceSEK": 35,
-    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/7474214/pexels-photo-7474214.jpeg",
     "imageAlt": "Cupcake med frosting"
   },
   {
@@ -296,7 +256,7 @@
     "description": "Krispig sallad med kyckling, parmesan och krämig dressing.",
     "ingredients": ["Romansallad", "kyckling", "parmesan", "krutonger", "caesardressing"],
     "priceSEK": 99,
-    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/1277481/pexels-photo-1277481.jpeg",
     "imageAlt": "Färsk sallad med grönsaker"
   },
   {
@@ -306,7 +266,7 @@
     "description": "Fräsch sallad med fetaost, oliver och gurka.",
     "ingredients": ["Tomat", "gurka", "rödlök", "fetaost", "oliver", "olivolja"],
     "priceSEK": 89,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/34293330/pexels-photo-34293330.jpeg",
     "imageAlt": "Färgglad sallad med grönsaker"
   },
   {
@@ -316,7 +276,7 @@
     "description": "Mättande pastasallad med pesto, tomat och mozzarella.",
     "ingredients": ["Pasta", "basilikapesto", "körsbärstomater", "mozzarella", "ruccola"],
     "priceSEK": 92,
-    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/4162492/pexels-photo-4162492.jpeg",
     "imageAlt": "Sallad med pasta och färska grönsaker"
   },
   {
@@ -326,7 +286,7 @@
     "description": "Fräsch sallad med quinoa, rostade grönsaker och citron.",
     "ingredients": ["Quinoa", "paprika", "gurka", "spenat", "citron", "olivolja"],
     "priceSEK": 95,
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/17146252/pexels-photo-17146252.jpeg",
     "imageAlt": "Sallad med gröna blad och grönsaker"
   },
   {
@@ -336,7 +296,7 @@
     "description": "Sallad med räkor, ägg, avokado och en frisk citrondressing.",
     "ingredients": ["Räkor", "sallad", "ägg", "avokado", "gurka", "citron"],
     "priceSEK": 109,
-    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/19859320/pexels-photo-19859320.jpeg",
     "imageAlt": "Fräsch sallad med gröna blad"
   },
   {
@@ -346,7 +306,7 @@
     "description": "Matig sallad med grillad kyckling, avokado och tomat.",
     "ingredients": ["Kyckling", "avokado", "blandad sallad", "tomat", "gurka", "yoghurtdressing"],
     "priceSEK": 105,
-    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/38551608/pexels-photo-38551608.jpeg",
     "imageAlt": "Matig sallad med grönsaker"
   },
   {
@@ -356,7 +316,7 @@
     "description": "Ugnsrostade rödbetor med krämig getost och valnötter.",
     "ingredients": ["Rödbetor", "getost", "valnötter", "ruccola", "honung"],
     "priceSEK": 98,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.pexels.com/photos/10165790/pexels-photo-10165790.jpeg",
     "imageAlt": "Sallad med färska blad och grönsaker"
   }
 ]
