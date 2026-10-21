@@ -10,3 +10,75 @@ body{
     line-height: 1.5;
 }
 
+img{max-width:100%;}
+
+.logo-box{
+    width:auto;
+    height: auto;
+}
+
+header{
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*Den här delen är styling för menu knapp och lista*/
+.menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.menu a{
+    color: #4a2e30;
+    text-decoration: none;
+}
+.menu{
+    display:none;
+    width:100%;
+}
+
+/*Visar meny när klassen open läggs till*/
+.menu.open{
+    display:block;
+}
+
+.menu-troggle{
+    cursor: pointer;
+    height: 30px;
+}
+
+/*Menyn i Stora skärmar*/
+@media (min-width:768px){
+    .menu-troggle{
+        display:none;
+    }
+
+    .menu{
+        display:block;
+        width:auto;
+        font-size:x-large;
+        padding: 20px;
+    }
+
+    .menu ul{
+        display:flex;
+        justify-content: space-between;
+        gap: 90px;
+        margin:0;
+        padding:0;
+    }
+
+    .site-header{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap:100px;
+    }
+
+    .logo-1{
+        width: 450px;
+        height: 200px;
+    }
+}
