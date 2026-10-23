@@ -69,3 +69,17 @@ function visaErrors(){
         errorList.appendChild(li);
     })
 }
+
+// Eventlyssnare
+
+// När formuläret skickas:
+// - validera inmatningen
+// - Spara ärende i localStorage om valideringen lyckas
+
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+
+    if(validateForm()){
+        saveInStorage();
+    }
+})
