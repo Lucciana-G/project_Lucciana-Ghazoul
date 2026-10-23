@@ -110,6 +110,34 @@ function loadHistory(){
     }
 }
 
+//Funktion som skriver ut historiken till skärmen
+function visaHistorik(){
+    historySection.innerHTML="";
+
+    if(history.length === 0){
+    historySection.textContent = "Inga ärende ännu.";
+    return;
+    }
+
+    history.forEach(function(question){
+        //Skapar li för varje info
+       const article = document.createElement("article");
+
+       const name = document.createElement("h4");
+       name.textContent = document.fullname;
+
+       const contact = document.createElement("p");
+        contact.textContent = question.email + " | " + question.phone;
+    
+       const text = document.createElement("p");
+        text.textContent = question.text;
+
+        article.append(name, contact, text);
+        historySection.appendChild(article);
+    })
+
+}
+
 // Eventlyssnare
 
 // När formuläret skickas:
@@ -122,5 +150,8 @@ form.addEventListener("submit", function(event){
     if(validateForm()){
         creatQuestion();
         form.reset();
+        loadHistory();
+        visaHistorik();
     }
 })
+
