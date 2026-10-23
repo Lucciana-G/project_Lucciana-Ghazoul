@@ -22,3 +22,5 @@ menubtn.addEventListener("click", function(){
 
 //Här är formuläret kod och validering
 
+//Nyckeln som historiken sparas under i localStorage
+const STORAGE_KEY = "kunduppdrag";
