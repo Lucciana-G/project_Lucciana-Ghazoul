@@ -1,0 +1,17 @@
+*{ box-sizing: border-box; }
+
+body{
+    background-color: #FFFAF2;
+    background-image: url(/images/background-image.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+    margin:0;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4a2e30;
+    line-height: 1.5;
+}
+
+img{max-width:100%;}
+
