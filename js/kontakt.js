@@ -13,7 +13,8 @@ const phoneInput = document.querySelector("#phone");
 const textArea = document.querySelector("#textarea");
 
 const errorList = document.querySelector("#errorlist");
-const historySection = document.querySelector("history");
+const historySection = document.querySelector("#history");
+
 
 //Skapar en eventlistener med funktion som öppnar och stänger menyn
 menubtn.addEventListener("click", function(){
@@ -93,6 +94,21 @@ function saveInStorage(){
     localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
 }
 
+//Läs in från localStorage
+function loadHistory(){
+    try{
+        const data = localStorage.getItem(STORAGE_KEY);
+        if(data){
+            history = JSON.parse(data);
+        }else{
+            history = [];
+        }
+    }catch(error)
+    {
+        console.log("Kunde inte läsa historiken:",error);
+        history = [];
+    }
+}
 
 // Eventlyssnare
 
