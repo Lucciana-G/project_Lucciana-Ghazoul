@@ -1,7 +1,6 @@
 "use strict";
 
 
-//Här skrivs sortiment kort lista som ska skrivas ut
 
 //Hämtar element från DOM
 const sortiment = document.getElementById("menu-list");
@@ -13,6 +12,7 @@ menubtn.addEventListener("click", function(){
     menu.classList.toggle("open")
 });
 
+//Här skrivs sortiment kort lista som ska skrivas ut
 //fetch anrop
 fetch("./menu.json")
 .then(response => {
