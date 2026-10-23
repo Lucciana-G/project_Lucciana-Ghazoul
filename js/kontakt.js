@@ -38,6 +38,7 @@ function validateForm(){
     const fullname = fullnameInput.value.trim();
     const email = emailInput.value.trim();
     const phone = phoneInput.value.trim();
+     const text = textArea.value.trim();
 
     //kontrollera obligatoriska fält
     if(fullname ===""){
@@ -48,6 +49,9 @@ function validateForm(){
     }
     if(phone ===""){
         errors.push("Telefon är obligatoriskt.");
+    }
+    if(text ===""){
+        errors.push("Beskriv gärna vad gäller ditt ärende.")
     }
 
     //visa eventuella felmedelanden
@@ -70,6 +74,26 @@ function visaErrors(){
     })
 }
 
+//Skapa kundärende
+function creatQuestion(){
+    //Hämta information från formuläret
+    const question ={
+        fullname: fullnameInput.value.trim(),
+        email: emailInput.value.trim(),
+        phone: phoneInput.value.trim(),
+        text: textArea.value.trim()
+    };
+    history.push(question);   // lägg in i arrayen
+    saveInStorage(history);  // spara arrayen
+}
+
+//spara history i localstorage
+function saveInStorage(){
+   
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
+}
+
+
 // Eventlyssnare
 
 // När formuläret skickas:
@@ -80,6 +104,7 @@ form.addEventListener("submit", function(event){
     event.preventDefault();
 
     if(validateForm()){
-        saveInStorage();
+        creatQuestion();
+        form.reset();
     }
 })
