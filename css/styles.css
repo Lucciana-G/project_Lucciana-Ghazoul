@@ -217,7 +217,22 @@ header{
   border-radius: 5px;
   cursor: pointer;
 }
+button, .btn {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+    color:#FFFAF2;
+    background-color:#4a2e30;
+}
 
+button:hover, .btn:hover {
+    background-color:#996c6f;
+}
 /*Här är för stora skärmar */
 @media(min-width:768px){
    
