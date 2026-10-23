@@ -89,7 +89,8 @@ header{
 /*CSS kod styling for kontant error message*/
 #errorlist {
     color: red;
-    font-weight: bold;
+    font-weight:normal;
+    font-size: larger;
 }
 
 button, .btn {
