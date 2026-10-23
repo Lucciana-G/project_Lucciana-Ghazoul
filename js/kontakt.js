@@ -57,3 +57,15 @@ function validateForm(){
     return errors.length === 0;
 }
 
+//Visar felmeddelanden på sidan
+function visaErrors(){
+    //Rensa tidigare ressultat
+    errorList.innerHTML = "";
+
+    //Skiver ut felmeddelande
+    errors.forEach(function (error){
+        const li = document.createElement("li");
+        li.textContent = error;
+        errorList.appendChild(li);
+    })
+}
