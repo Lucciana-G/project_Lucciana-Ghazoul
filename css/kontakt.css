@@ -112,17 +112,20 @@ button:hover, .btn:hover {
 
 .contain{
    display: flex;
+   flex:1;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
    max-width: 350px;
+   min-height:80vh;
 }
 
 main{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 fieldset{
