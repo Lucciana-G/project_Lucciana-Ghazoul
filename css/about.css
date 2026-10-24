@@ -1,7 +1,10 @@
 *{ box-sizing: border-box; }
 
 body{
-    background-color: #FFFAF2;
+     background-color: #FFFAF2;
+    background-image: url(/images/background-image.png);
+    background-size:auto;
+    background-repeat: no-repeat;
     margin:0;
     font-family: "Chicle", serif;
     font-weight: 400;
@@ -83,22 +86,45 @@ header{
     }
 }
 
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.box1{
+button, .btn {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
-    line-height: 1.5;
-    width: 400px;
-}
-.box2{
-    height: auto;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+    color:#FFFAF2;
+    background-color:#4a2e30;
 }
 
+button:hover, .btn:hover {
+    background-color:#996c6f;
+}
+
+.section1{
+   text-align: center;
+   place-items: center;
+   line-height: 1.5;
+   margin:0 auto;
+}
+
+.section2{
+    background-image:url("/images/making-bread.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 60px 15px;
+    font-weight: bold;
+    height: 200px;
+}
+
+@media(min-width:768px){
+   .section2{
+    min-height: 500px;
+   }
+}
 
 /*Footer section kod*/
 footer{
@@ -109,6 +135,7 @@ footer{
   align-items: center;
   justify-content: space-evenly;
   padding: 10px;
+  margin-top: 30px;
 }
 
 footer a{
