@@ -83,13 +83,21 @@ header{
     }
 }
 
-
-
-
-
-
-
-
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    text-align: center;
+    line-height: 1.5;
+    width: 400px;
+}
+.box2{
+    height: auto;
+}
 
 
 /*Footer section kod*/
