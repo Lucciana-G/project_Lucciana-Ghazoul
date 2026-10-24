@@ -105,14 +105,13 @@ button:hover, .btn:hover {
 
 .section1{
    text-align: center;
-   place-items: center;
    line-height: 1.5;
    margin:0 auto;
 }
 
 .section2{
     background-image:url("/images/making-bread.jpg");
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     padding: 60px 15px;
@@ -121,6 +120,11 @@ button:hover, .btn:hover {
 }
 
 @media(min-width:768px){
+    .section1{
+    max-width: 700px;
+    font-size: larger;
+   margin:0 auto;
+}
    .section2{
     min-height: 500px;
    }
@@ -135,7 +139,7 @@ footer{
   align-items: center;
   justify-content: space-evenly;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 footer a{
