@@ -1,0 +1,143 @@
+*{ box-sizing: border-box; }
+
+body{
+    background-color: #FFFAF2;
+    margin:0;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4a2e30;
+    line-height: 1.5;
+}
+
+img{max-width:100%;}
+
+.logo-box{
+    width:auto;
+    height: auto;
+}
+
+header{
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*Den här delen är styling för menu knapp och lista*/
+.menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.menu a{
+    color: #4a2e30;
+    text-decoration: none;
+}
+.menu{
+    display:none;
+    width:100%;
+}
+
+/*Visar meny när klassen open läggs till*/
+.menu.open{
+    display:block;
+}
+
+.menu-troggle{
+    cursor: pointer;
+    height: 30px;
+}
+
+/*Menyn i Stora skärmar*/
+@media (min-width:768px){
+    .menu-troggle{
+        display:none;
+    }
+
+    .menu{
+        display:block;
+        width:auto;
+        font-size:x-large;
+        padding: 20px;
+    }
+
+    .menu ul{
+        display:flex;
+        justify-content: space-between;
+        gap: 90px;
+        margin:0;
+        padding:0;
+    }
+
+    .site-header{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap:100px;
+    }
+
+    .logo-1{
+        width: 450px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*Footer section kod*/
+footer{
+    background-color:#4A2E30;
+    color:#FFFAF2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color:#FFFAF2;
+}
+.foot-container1{
+    width: 200px;
+
+}
+.foot-container2{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:20px;
+    
+}
+/*För större skärmar*/
+@media(min-width:768px){
+    footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 20px;
+    padding: 20px 40px;
+    }
+    .foot-container2{
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+      gap:200px;
+    }
+    .foot-container1{
+    display: flex;
+    width: 350px;
+    height: 250px;
+    }
+}
+
