@@ -100,6 +100,16 @@ button:hover, .btn:hover {
     background-color:#996c6f;
 }
 
+.section1{
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .section1{
+    text-align: center;
+    font-size: larger;
+}}
+
 /*Footer section kod*/
 footer{
     background-color:#4A2E30;
@@ -128,6 +138,7 @@ footer a{
 }
 /*För större skärmar*/
 @media(min-width:768px){
+
     footer {
     display: flex;
     flex-direction: row;
