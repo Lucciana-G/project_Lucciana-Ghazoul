@@ -87,8 +87,8 @@ function creatQuestion(){
         text: textArea.value.trim()
     };
 
-    history.push(question);   // lägg in i arrayen
-    saveInStorage();  // spara arrayen
+    history.push(question);   // lägg till sist i arrayen
+    saveInStorage();  // spara alla ärende i localStorage
 }
 
 //spara history i localstorage
@@ -102,14 +102,17 @@ function saveInStorage(){
 //Funktion som visar bekräftelse och historik
 function showConfirmation(){
     confirmation.style.display = "block";
-
+    //Tömmeer diven
     historySection.innerHTML = "";
 
-    history.forEach(function(item){
-        const p = document.createElement("p");
-        p.textContent = item.fullname + "-" + item.text;
-        historySection.appendChild(p);
-    });
+    //Hämtar det sista ärende i arrayen
+    const senaste = history[history.length - 1];
+
+    //Skapar ett stycke med det senaste ärende
+    const p = document.createElement("p");
+    p.textContent = item.fullname + "-" + item.text;
+    historySection.appendChild(p);
+   
 }
 // Eventlyssnare
 
