@@ -14,6 +14,7 @@ const textArea = document.querySelector("#text");
 
 const errorList = document.querySelector("#errorlist");
 const historySection = document.querySelector("#history");
+const confirmation = document.querySelector(".confirmation");
 
 
 //Skapar en eventlistener med funktion som öppnar och stänger menyn
@@ -84,6 +85,7 @@ function creatQuestion(){
         phone: phoneInput.value.trim(),
         text: textArea.value.trim()
     };
+
     history.push(question);   // lägg in i arrayen
     saveInStorage(history);  // spara arrayen
 }
@@ -94,18 +96,34 @@ function saveInStorage(){
     localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
 }
 
+//Funktion som visar bekräftelse och historik
+function showConfirmation(){
+    confirmation.style.display = "block";
+
+    historySection.innerHTML = "";
+
+    history.forEach(function(item){
+        const p = document.createElement("p");
+        p.textContent = item.fullname + "-" + item.text;
+        historySection.appendChild(p);
+    });
+}
 // Eventlyssnare
 
 // När formuläret skickas:
 // - validera inmatningen
 // - Spara ärende i localStorage om valideringen lyckas
+//Visa bekräftelse
 
 form.addEventListener("submit", function(event){
     event.preventDefault();
 
     if(validateForm()){
         creatQuestion();
+        showConfirmation();
         form.reset();
+    }else{
+        confirmation.style.display = "none";
     }
 })
 

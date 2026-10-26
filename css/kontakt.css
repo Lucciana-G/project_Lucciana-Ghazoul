@@ -133,6 +133,10 @@ fieldset{
    border-color: black;
 }
 
+.confirmation{
+   display: none;
+}
+
 /*Footer section kod*/
 footer{
     background-color:#4A2E30;
