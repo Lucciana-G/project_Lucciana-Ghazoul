@@ -52,7 +52,7 @@ function validateForm(){
     if(phone ===""){
         errors.push("Telefon är obligatoriskt.");
     }
-    if(text ===""){
+    if(text ==="" || text.length < 20){
         errors.push("Beskriv gärna vad gäller ditt ärende.")
     }
 
