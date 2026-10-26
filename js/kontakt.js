@@ -27,8 +27,9 @@ menubtn.addEventListener("click", function(){
 //Nyckeln som historiken sparas under i localStorage
 const STORAGE_KEY = "kunduppdrag";
 
-//Array som har sparade historik ärende
-let history =[];
+//Array som har sparade historik ärende (laddar tidigare ärende)
+let history = JSON.parse(localStorage.getItem(STORAGE_KEY));//hämtar data 
+ []; //om inget sparat får vi null
 
 // Array som används för felmeddelanden
 let errors =[];
@@ -87,7 +88,7 @@ function creatQuestion(){
     };
 
     history.push(question);   // lägg in i arrayen
-    saveInStorage(history);  // spara arrayen
+    saveInStorage();  // spara arrayen
 }
 
 //spara history i localstorage
@@ -95,6 +96,8 @@ function saveInStorage(){
    
     localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
 }
+
+
 
 //Funktion som visar bekräftelse och historik
 function showConfirmation(){
