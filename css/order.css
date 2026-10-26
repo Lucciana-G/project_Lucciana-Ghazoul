@@ -82,3 +82,70 @@ header{
         height: 200px;
     }
 }
+
+button, .btn {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+    color:#FFFAF2;
+    background-color:#4a2e30;
+}
+
+button:hover, .btn:hover {
+    background-color:#996c6f;
+}
+
+/*Footer section kod*/
+footer{
+    background-color:#4A2E30;
+    color:#FFFAF2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color:#FFFAF2;
+}
+.foot-container1{
+    width: 200px;
+
+}
+.foot-container2{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:20px;
+    
+}
+/*För större skärmar*/
+@media(min-width:768px){
+    footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 20px;
+    padding: 20px 40px;
+    }
+    .foot-container2{
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+      gap:200px;
+    }
+    .foot-container1{
+    display: flex;
+    width: 350px;
+    height: 250px;
+    }
+}
+
