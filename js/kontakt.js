@@ -28,8 +28,7 @@ menubtn.addEventListener("click", function(){
 const STORAGE_KEY = "kunduppdrag";
 
 //Array som har sparade historik ärende (laddar tidigare ärende)
-let history = JSON.parse(localStorage.getItem(STORAGE_KEY));//hämtar data 
- []; //om inget sparat får vi null
+let history = JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; //Hämtar data eller om inget sparat får vi null
 
 // Array som används för felmeddelanden
 let errors =[];
@@ -110,7 +109,7 @@ function showConfirmation(){
 
     //Skapar ett stycke med det senaste ärende
     const p = document.createElement("p");
-    p.textContent = item.fullname + "-" + item.text;
+    p.textContent = senaste.fullname + "-" + senaste.text;
     historySection.appendChild(p);
    
 }
