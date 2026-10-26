@@ -10,7 +10,7 @@ const form = document.querySelector("#kundForm");
 const fullnameInput = document.querySelector("#fullname");
 const emailInput = document.querySelector("#email");
 const phoneInput = document.querySelector("#phone");
-const textArea = document.querySelector("#textarea");
+const textArea = document.querySelector("#text");
 
 const errorList = document.querySelector("#errorlist");
 const historySection = document.querySelector("#history");
