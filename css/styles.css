@@ -85,7 +85,7 @@ header{
 
 /*Hero section kod*/
 .hero{
-    background-image:url("/images/hero-image.png");
+    background-image:url("../images/hero-image.png");
     background-size: cover;
     background-position: center;
     padding: 60px 15px;
@@ -196,7 +196,7 @@ header{
 }
 }
 .section3{
-    background-image:url("/images/footer-image.png");
+    background-image:url("../images/footer-image.png");
     background-size: cover;
     background-position: center;
     padding: 10px 15px;
