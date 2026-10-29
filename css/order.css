@@ -1,5 +1,9 @@
 *{ box-sizing: border-box; }
 
+html{
+    height: 100%;
+}
+
 body{
     background-color: #FFFAF2;
     margin:0;
@@ -8,7 +12,12 @@ body{
     font-style: normal;
     color: #4a2e30;
     line-height: 1.5;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
 }
+
 
 img{max-width:100%;}
 
@@ -99,7 +108,9 @@ button, .btn {
 button:hover, .btn:hover {
     background-color:#996c6f;
 }
-
+main{
+    flex: 1;
+}
 .section1{
     text-align: center;
 }
